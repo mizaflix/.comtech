@@ -1,0 +1,53 @@
+body {
+    font-size: 16px; /* Tamanho padrão */
+    padding: 0 20px; /* Adiciona margem nas laterais */
+}
+@media (max-width: 768px) { /* Quando a tela for menor que 768px */
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px; /* Reduz o tamanho do título */
+        text-align: center; /* Centraliza o título */
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1.4; /* Melhora a leitura */
+        text-align: center;
+    }
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background-color: black;
+}
+.inicio {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    
+}
+img{
+    max-width: 20%;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+a:link{
+    text-decoration: none;
+    font-size: larger;
+    color: green;
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}

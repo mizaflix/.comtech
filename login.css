@@ -1,0 +1,80 @@
+body {
+    font-size: 16px; /* Tamanho padrão */
+    padding: 0 20px; /* Adiciona margem nas laterais */
+}
+@media (max-width: 768px) { /* Quando a tela for menor que 768px */
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px; /* Reduz o tamanho do título */
+        text-align: center; /* Centraliza o título */
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1.4; /* Melhora a leitura */
+        text-align: center;
+    }
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background-color: black;
+}
+.inicio {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    
+}
+.logo{
+    width: 20%;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+a:link{
+    text-decoration: none;
+    font-size: larger;
+    color: green;
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+body{
+    background: linear-gradient(90deg, rgba(0,36,4,1) 11%, rgba(212,212,212,1) 100%, rgba(0,212,255,1) 100%);
+}
+h3{
+    text-align: center;
+    color: green 
+}
+.login{
+    width: 20%;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.forms{
+    text-align: center;
+}
+input{
+    color: green;
+    background-color: black;
+    border-color: green;
+}
+label{
+    color: green;
+}
