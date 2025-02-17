@@ -1,23 +1,16 @@
-body {
-    font-size: 16px; /* Tamanho padrão */
-    padding: 0 20px; /* Adiciona margem nas laterais */
-}
-@media (max-width: 768px) { /* Quando a tela for menor que 768px */
-    body {
-        font-size: 14px;
+/* Estilo padrão (para telas grandes) */
+.container {
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Ajusta para telas menores */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;  /* Ocupa quase toda a tela */
     }
-
-    h1 {
-        font-size: 20px; /* Reduz o tamanho do título */
-        text-align: center; /* Centraliza o título */
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 1.4; /* Melhora a leitura */
-        text-align: center;
-    }
-}
+  }
+  
 
 .header{
     display: flex;
