@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(0, 75, 47, 0.76);
+}
+h3{
+    text-align: center;
+    justify-content: center;  
+}
+.login{
+    border: solid 2px;
+    border-color: black;
+    margin-top: 240px;
+}
