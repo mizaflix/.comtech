@@ -1,17 +1,33 @@
-/* Estilo padrão (para telas grandes) */
-.container {
-    width: 100%;
-    margin: auto;
-  }
-  
-  /* Ajusta para telas menores */
-  @media (max-width: 768px) {
+/* Ajusta para telas menores (máximo 768px) */
+@media (max-width: 768px) {
+    /* Container ajustado */
     .container {
       width: 95%;  /* Ocupa quase toda a tela */
     }
-  }
   
-
+    /* Ajuste na header */
+    .header {
+      flex-direction: column; /* Coloca o conteúdo do header em coluna */
+      padding: 20px;
+    }
+  
+    /* Imagem do logo */
+    .inicio img {
+      max-width: 50%;  /* A imagem ocupa metade da tela */
+    }
+  
+    /* Links em coluna para telas menores */
+    .links {
+      flex-direction: column; /* Coloca os links em coluna */
+      gap: 10px;  /* Diminui o espaço entre os links */
+      text-align: center;  /* Centraliza os links */
+    }
+  
+    /* Ajuste no título e parágrafos */
+    h2, p {
+      font-size: 16px; /* Tamanho do texto para telas pequenas */
+    }
+  }  
 .header{
     display: flex;
     align-items: center;
